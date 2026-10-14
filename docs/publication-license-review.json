@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-10-14",
+  "scope": "Portfolio publication; no new hosted plans, model weights or external image datasets adopted",
+  "development_tools": [
+    {
+      "tool": "pytest",
+      "plan_or_version": "9.1.1",
+      "decision": "approved",
+      "price": {
+        "condition": "Existing local open-source package; no hosted service subscription introduced"
+      },
+      "license": {
+        "spdx": "MIT",
+        "source": "https://github.com/pytest-dev/pytest/blob/main/LICENSE",
+        "installed_distribution_evidence": [
+          {
+            "distribution_path": "pytest-9.1.1.dist-info/licenses/LICENSE",
+            "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+          }
+        ]
+      },
+      "commercial_use": {
+        "allowed": true,
+        "evidence": "Official license and installed exact-version license metadata"
+      },
+      "restrictions": [
+        "Retain license and required notices when redistributing the library; package is installed separately in this repository"
+      ],
+      "adoption": "Retain existing tooling for reproducible local tests and browser capture"
+    },
+    {
+      "tool": "playwright",
+      "plan_or_version": "1.61.0",
+      "decision": "approved",
+      "price": {
+        "condition": "Existing local open-source package; no hosted service subscription introduced"
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/microsoft/playwright/blob/main/LICENSE",
+        "installed_distribution_evidence": [
+          {
+            "distribution_path": "playwright-1.61.0.dist-info/licenses/LICENSE",
+            "sha256": "7fab1461b41970ff376f1c9303a637076bfaaeb71cd12dd3a1c44aaf59a1a2b9"
+          }
+        ]
+      },
+      "commercial_use": {
+        "allowed": true,
+        "evidence": "Official license and installed exact-version license metadata"
+      },
+      "restrictions": [
+        "Retain license and required notices when redistributing the library; package is installed separately in this repository"
+      ],
+      "adoption": "Retain existing tooling for reproducible local tests and browser capture"
+    }
+  ],
+  "bundled": [
+    {
+      "tool": "Leaflet",
+      "plan_or_version": "1.9.4",
+      "decision": "approved",
+      "license": "BSD-2-Clause",
+      "price": "No fee for bundled source",
+      "commercial_use": true,
+      "source": "https://github.com/Leaflet/Leaflet/blob/v1.9.4/LICENSE",
+      "condition": "Bundled copyright and license retained unmodified"
+    },
+    {
+      "tool": "Ministry of the Environment protected species list",
+      "plan_or_version": "Historical list declared in data/protected_species.json",
+      "decision": "conditional",
+      "price": "Static publicly available data; no API usage during release",
+      "commercial_use": true,
+      "license": "Public Data License 1.0",
+      "sources": [
+        "https://www.env.go.jp/mail.html",
+        "https://www.env.go.jp/nature/kisho/domestic/list.html",
+        "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0"
+      ],
+      "condition": "Credit the Ministry; state processing by ikimono-note; do not assert historical data is current; no Ministry logos bundled"
+    }
+  ]
+}

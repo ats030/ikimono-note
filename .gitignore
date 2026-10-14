@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.local/
+*.db
+*.db-*
+settings.json
+node_modules/
+python_modules/
+docs/media/raw/
+cloudflare-preview/_*.mjs
+android-original/build/
+eval/dataset.json
+eval/results/

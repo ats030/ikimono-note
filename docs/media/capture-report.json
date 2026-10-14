@@ -1,0 +1,324 @@
+{
+  "profile": "actual local frontend; routed fixtures; no AI or account calls",
+  "viewport": {
+    "width": 1100,
+    "height": 820
+  },
+  "screenshots": 6,
+  "assertions": [
+    "first-use setup",
+    "photo selection",
+    "uncertain candidate rendering",
+    "IndexedDB record creation",
+    "record persistence after reload",
+    "no external requests",
+    "no page errors"
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "method": "GET",
+      "path": "/theme.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/control.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/mode.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/index.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/species-links.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/sharing.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/products.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/backup.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/gdrive.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/index.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.mjs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/me"
+    },
+    {
+      "method": "GET",
+      "path": "/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/theme.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/control.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/mode.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/account.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/settings.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/species-links.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/backup.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/gdrive.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/settings.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "method": "GET",
+      "path": "/theme.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/control.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/mode.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/index.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/species-links.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/sharing.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/products.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/backup.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/gdrive.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/index.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.mjs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/api/me"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/photo-location.mjs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/photo-metadata"
+    },
+    {
+      "method": "POST",
+      "path": "/identify"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/history"
+    },
+    {
+      "method": "GET",
+      "path": "/theme.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/control.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/history.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/species-links.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/sharing.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/products.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/backup.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/gdrive.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/history.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    },
+    {
+      "method": "GET",
+      "path": "/history"
+    },
+    {
+      "method": "GET",
+      "path": "/theme.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/control.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/history.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/location-picker.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/species-links.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/sharing.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/products.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/backup.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/gdrive.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/history.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/settings"
+    }
+  ],
+  "errors": []
+}
