@@ -72,8 +72,8 @@ Python版と公開版は実行経路が異なります。
 Python 3.12と、インターネットに接続して依存パッケージを取得できる環境を使います。
 
 ```sh
-git clone https://github.com/ats030/ikimono-note-portfolio.git
-cd ikimono-note-portfolio
+git clone https://github.com/ats030/ikimono-note.git
+cd ikimono-note
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python scripts/run_local.py
